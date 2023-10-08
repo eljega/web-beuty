@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <title>Beauty - Tu Centro de Estética</title>
+    <!-- Agrega aquí los enlaces a las hojas de estilo CSS y scripts JS -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/js/main.js">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#acerca">Acerca de Nosotros</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <picture>
+                    <!-- Imagen para dispositivos de escritorio -->
+                    <source media="(min-width: 769px)" srcset="/static/images/banner1.webp">
+                    <!-- Imagen para dispositivos móviles -->
+                    <img src="/static/images/banner1movil.webp" alt="Imagen 1">
+                </picture>
+            </div>
+            <div class="mySlides fade">
+                <picture>
+                    <!-- Imagen para dispositivos de escritorio -->
+                    <source media="(min-width: 769px)" srcset="/static/images/banner2.webp">
+                    <!-- Imagen para dispositivos móviles -->
+                    <img src="/static/images/banner2movil.webp" alt="Imagen 2">
+                </picture>
+            </div>
+            <div class="mySlides fade">
+                <picture>
+                    <!-- Imagen para dispositivos de escritorio -->
+                    <source media="(min-width: 769px)" srcset="/static/images/banner3.webp">
+                    <!-- Imagen para dispositivos móviles -->
+                    <img src="/static/images/banner3movil.webp" alt="Imagen 3">
+                </picture>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="inicio-content">
+                        <h1 class="display-4">Bienvenido a Beauty</h1>
+                        <p class="lead">Tu lugar de belleza y cuidado personal</p>
+                       
+                        <a href="#contacto" class="btn">
+                            <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                                <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                            </svg>
+                            <span class="text">¡Reserva Ahora!</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+       
+ <!-- Sección de Servicios -->
+<!-- Sección de Servicios -->
+<section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services-carousel">
+
+        <div class="service">
+            <img src="/static/images/cejas.webp" alt="Cejas">
+            <p>Cejas</p>
+        </div>
+        <div class="service">
+            <img src="/static/images/pestañas.webp" alt="Pestañas">
+            <p>Pestañas</p>
+        </div>
+        <div class="service">
+            <img src="/static/images/manicura.webp" alt="Manicura">
+            <p>Manicura</p>
+        </div>
+        <div class="service">
+            <img src="/static/images/cortecabello.webp" alt="Corte de Cabello">
+            <p>Corte de Cabello</p>
+        </div>
+        <div class="service">
+            <img src="/static/images/depilacion.webp" alt="Depilación">
+            <p>Depilación</p>
+        </div>
+    </div>
+    
+</section>
+
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <div class="acerca-content">
+            <div class="acerca-column">
+                <img src="/static/images/peluquera.webp" alt="Acerca de Nosotros">
+            </div>
+            <div class="acerca-column">
+                <p>Somos un equipo de profesionales dedicados a brindarte los mejores servicios de belleza y cuidado personal. Con años de experiencia y un compromiso inquebrantable con la satisfacción del cliente, estamos aquí para hacerte sentir y lucir lo mejor posible.</p>
+                <img src="/static/images/logo.webp" alt="El Logo"> <img src="/static/images/textologo.webp" alt="El Logo">
+            </div>
+            <div class="acerca-column">
+                <p>Nuestra misión es proporcionar a nuestros clientes un espacio relajante y acogedor donde puedan disfrutar de una amplia gama de servicios de belleza y bienestar. Trabajamos con pasión y dedicación para ayudarte a resaltar tu belleza natural y cuidar de tu bienestar.</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Sección de Galería -->
+    <section id="galeria">
+        <h2>¡Ven y siente la magia!</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/static/images/peluqueria.webp" alt="Descripción de la imagen 1">
+            </div>
+            <div class="gallery-item">
+                <img src="/static/images/sacandocejas.webp" alt="Descripción de la imagen 2">
+            </div>
+            <!-- Agrega más elementos de galería aquí -->
+        </div>
+    </section>
+    
+    
+    
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <p>¡Estamos aquí para ayudarte!</p>
+            <p>Dirección: 123 Calle Principal</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Correo Electrónico: info@tucentrodeestetica.com</p>
+        </div>
+    </section>
+    
+
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="/static/images/logo.webp" alt="Logo de la empresa"> <img src="/static/images/textologo.webp" alt="El Logo">
+                
+            </div>
+            <div class="contact-info">
+                <p>¡Siente la magia con Beauty!</p>
+                <p>Contáctanos:</p>
+                <a href="https://wa.me/1234567890" target="_blank" class="whatsapp">
+                    <img src="/static/images/whatssapp.webp" alt="Logo de WhatsApp"> 123-456-7890
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><img src="/static/images/tiktok.png" alt="Logo de Facebook"></a>
+                <a href="#" class="social-icon"><img src="/static/images/instagram.png" alt="Logo de Instagram"></a>
+            </div>
+        </div>
+        <p class="copyright">© 2023 Beauty por eljega</p>
+    </footer>
+    
+    
+    
+
+    <!-- Agrega aquí los enlaces a los scripts de JavaScript -->
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
