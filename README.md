@@ -22,6 +22,6 @@ Capturas de Pantalla:
 
 Sitio Web en Vivo:
 
-[Enlace a tu Página Web](https://web-beuty.vercel.app)
+[Enlace a Web Beuty](https://web-beuty.vercel.app)
 
 ¡Esperamos que disfrutes explorando Beuty y que encuentres los servicios y la información que estás buscando! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.
