@@ -629,11 +629,18 @@ footer {
 .social-icon img {
     width: 34px; /* Ajusta el tamaño de las imágenes de redes sociales según sea necesario */
     margin-right: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 4px solid #ffe79900;
+    border-radius: 50%;
 }
 
 
-.social-icon:hover {
+.social-icon img:hover {
     color: #ffd700; /* Cambia el color al pasar el mouse */
+    transform: scale(1.2);
+    border: 4px solid #ffd23d;
+    border-radius: 50%;
+    
 }
 
 .copyright {
@@ -644,11 +651,26 @@ footer {
     margin-left: -138px;
 }
 
-a.whatsapp {
+
+
+/* Agrega estos estilos para el enlace de WhatsApp */
+.whatsapp-link {
+    text-decoration: none; /* Elimina la subraya predeterminada del enlace */
+    position: relative; /* Establece una posición relativa para los elementos secundarios */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Agrega una transición suave */
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    margin-left: 40px;
+
 }
+
+.whatsapp-link:hover {
+    background-color: #25d366; /* Cambia el color de fondo al pasar el mouse */
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del texto al pasar el mouse */
+}
+
 
 /* Estilos para el pie de página en dispositivos móviles */
 @media screen and (max-width: 768px) {
@@ -676,4 +698,6 @@ a.whatsapp {
     .copyright {
         margin-top: 10px; /* Ajusta el margen superior en dispositivos móviles */
     }
+
 }
+
