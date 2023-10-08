@@ -16,9 +16,9 @@ Ambiente Relajante: Queremos que te sientas como en casa en nuestro acogedor sal
 Galería Fotográfica: Explora nuestra galería de imágenes para ver ejemplos de nuestro trabajo.
 Capturas de Pantalla:
 
-![Pantalla de inicio ](capturas/inicio.webp)
+![Pantalla de inicio ](capturas/acercade.webp)
 
-![Pantalla de inicio ](capturas/inicio.webp)
+![Pantalla de inicio ](capturas/contacto.webp)
 
 Sitio Web en Vivo:
 
